@@ -127,10 +127,5 @@ namespace Launcher
 		{
 			base.Close();
 		}
-
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
