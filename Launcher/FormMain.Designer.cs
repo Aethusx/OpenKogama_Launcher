@@ -71,6 +71,6 @@
 		private global::System.Windows.Forms.ListBox listBoxLog;
 		private global::System.Windows.Forms.ProgressBar progressBarMain;
 		private global::System.ComponentModel.BackgroundWorker backgroundWorkerRun;
-        private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label label1;
     }
 }

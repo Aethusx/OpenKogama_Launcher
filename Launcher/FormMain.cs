@@ -49,10 +49,10 @@ namespace Launcher
 				return;
 			}
 
-            if (result.errorMsg.Length > 0)
-                MessageBox.Show(this, result.errorMsg);
-            else
-                Thread.Sleep(10); /* Original delay was 1000ms */
+			if (result.errorMsg.Length > 0)
+				MessageBox.Show(this, result.errorMsg);
+			else
+				Thread.Sleep(10); /* Original delay was 1000ms */
 
 			base.Close();
 		}
@@ -60,26 +60,26 @@ namespace Launcher
 		private void backgroundWorkerRun_DoWork(object sender, DoWorkEventArgs e)
 		{
 			LauncherResult result = LauncherMain.Run(
-                this.launcherArgs.registryRootKeyName,
-                this.launcherArgs.regionURL, 
-                this.launcherArgs.standaloneRelativePath, 
-                this.launcherArgs.standaloneExecutableName, 
-                this.launcherArgs.standaloneAPIURL, 
-                this.launcherArgs.bootStrapperExecutableName, 
-                this.launcherArgs.sentryURL, 
-                this.launcherArgs.isFirstTimeInstall, 
-                this.launcherArgs.callingArgs, 
-                new Action<string>(this.LogMsg), 
-                new Action<bool>(this.ShowLoadingIcon) /* nothing for now */, 
-                new Action<int>(this.SetProgress));
+				this.launcherArgs.registryRootKeyName,
+				this.launcherArgs.regionURL, 
+				this.launcherArgs.standaloneRelativePath, 
+				this.launcherArgs.standaloneExecutableName, 
+				this.launcherArgs.standaloneAPIURL, 
+				this.launcherArgs.bootStrapperExecutableName, 
+				this.launcherArgs.sentryURL, 
+				this.launcherArgs.isFirstTimeInstall, 
+				this.launcherArgs.callingArgs, 
+				new Action<string>(this.LogMsg), 
+				new Action<bool>(this.ShowLoadingIcon) /* nothing for now */, 
+				new Action<int>(this.SetProgress));
 			e.Result = result;
 		}
 
-        /* nothing for now */
-        private void ShowLoadingIcon(bool visible)
-        {
-            return;
-        }
+		 /* nothing for now */
+		private void ShowLoadingIcon(bool visible)
+		{
+			return;
+		}
 
 		private void LogMsg(string msg)
 		{
