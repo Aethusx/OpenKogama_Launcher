@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{777F0B57-672E-46AF-8377-5FF14429B677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Debug|Any CPU.Build.0 = Debug|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Debug|x86.ActiveCfg = Debug|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Debug|x86.Build.0 = Debug|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|Any CPU.ActiveCfg = Release|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|Any CPU.Build.0 = Release|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|Mixed Platforms.Build.0 = Release|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|x86.ActiveCfg = Release|x86
+		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69AC43AA-13E5-46BF-9617-10CE5A8FF24D}
+	EndGlobalSection
+EndGlobal
