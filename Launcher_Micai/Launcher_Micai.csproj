@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{777F0B57-672E-46AF-8377-5FF14429B677}</ProjectGuid>
+    <ProjectGuid>{7688C80F-FE55-42ED-B63B-64C418B6C631}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Launcher</RootNamespace>
     <AssemblyName>OpenKogama Launcher</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>Launcher.ico</ApplicationIcon>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
     <StartupObject>Launcher.Program</StartupObject>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -49,12 +49,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LauncherCore">
+      <HintPath>..\..\..\AppData\Local\KogamaLauncher-WWW\LauncherCore.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
-    <Reference Include="LauncherCore">
-      <HintPath>..\..\..\..\AppData\Local\KogamaLauncher-WWW\LauncherCore.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <AppDesigner Include="Properties\" />
@@ -102,6 +102,21 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
