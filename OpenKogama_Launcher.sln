@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{777F0B57-672E-46AF-8377-5FF14429B677}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher_Dark", "Launcher_Dark\Launcher_Dark.csproj", "{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|Mixed Platforms.Build.0 = Release|x86
 		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|x86.ActiveCfg = Release|x86
 		{777F0B57-672E-46AF-8377-5FF14429B677}.Release|x86.Build.0 = Release|x86
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Debug|x86.Build.0 = Debug|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F9F3AAF3-AEE3-4991-A034-4E92516D1C2D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
